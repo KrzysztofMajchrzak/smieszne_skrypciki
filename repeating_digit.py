@@ -1,7 +1,6 @@
 def RepeatingDigit(list_of_digits):
     for first_index in range(0, len(list_of_digits)):
         for second_index in range(0, first_index):
-            index_1 = list_of_digits[second_index]
             if list_of_digits[first_index] == list_of_digits[second_index] and first_index != second_index:
                 return list_of_digits[first_index], second_index, first_index
                 
